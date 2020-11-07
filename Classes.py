@@ -1,3 +1,8 @@
+"""
+i made this code just for testing how class work.
+it's not a big deal !!!
+"""
+
 class student():
     def __init__(self, name, age, genre):
         self.name = name
