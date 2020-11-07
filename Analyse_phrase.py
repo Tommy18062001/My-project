@@ -64,11 +64,11 @@ class Sentence(object):
 
 
 
-intro = "I lov'e the tit'le of you#r film."
+phrase = input("write a sentence: ")
 
 # let's have a real phrase, a sentence that makes sense.
 
-analyse = Sentence(intro)
+analyse = Sentence(phrase)
 
 """apply the function before you return the value you want, like here we want to get the result of checking
    you can try to print your analyse without it and see what i mean
